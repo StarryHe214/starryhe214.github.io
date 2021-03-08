@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>BeiJing</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="sitemap.html">Site Map</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact/Feedback</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form>
+            <h1>Contact US</h1>
+            <p><span><b>Email</b></span> abc@example.com</p>
+            <p><span><b>Phone</b></span> xxx-xxx-xxxx</p>
+            <hr>
+            <h1>FeedBack</h1>
+            <fieldset>
+                <legend><b>Your information:</b></legend>
+
+                <div class="input-group">
+                    <label class="fix-width-label" for="name">Name:</label>
+                    <input id="name" type="text" placeholder="Enter your name here">
+                </div>
+                <div class="input-group">
+                    <label class="fix-width-label" for="email">Email:</label>
+                    <input id="email" type="text" placeholder="Enter your email here">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Your Review:</b></legend>
+                <div class="input-group">
+                    <label for="type">Which Vintage Shop you have visite?</label>
+                    <select name="" id="type">
+                        <option value=" Tiger Vintage">
+                            Tiger Vintage
+                        </option>
+                        <option value="Aloooooha Vintage">
+                            Aloooooha Vintage
+                        </option>
+                        <option value="LoLo Love Vintage">
+                            LoLo Love Vintage
+                        </option>
+                        <option value="Dot Collection">
+                            Dot Collection
+                        </option>
+                        <option value="Mega Vintage">
+                            Mega Vintage
+                        </option>
+                        <option value="Miss Eliza Vintage">
+                            Miss Eliza Vintage
+                        </option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="type">How would you like to rate this Vintage store?</label>
+                    <br>
+                    <input type="radio" name="rate" id="greate"> <label for="greate">Great</label>
+                    <input type="radio" name="rate" id="awesome"> <label for="awesome">Awesome</label>
+                    <input type="radio" name="rate" id="good"> <label for="good">Good</label>
+                    <input type="radio" name="rate" id="good"> <label for="normal">Normal</label>
+                    <input type="radio" name="rate" id="good"> <label for="normal">Bad</label>
+                </div>
+                <div class="input-group">
+                    <label for="comment">Comments(optional):</label>
+                    <br>
+                    <textarea name="" id="comment" cols="60" rows="5"></textarea>
+                </div>
+                <div class="input-group">
+                    <input type="checkbox" id="sign">
+                    <label for="sign">Subscribe</label>
+                </div>
+                <div class="input-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

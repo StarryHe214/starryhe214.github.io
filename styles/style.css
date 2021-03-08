@@ -1,0 +1,22 @@
+.slide img{
+    width: 100%
+}
+
+.slide {
+    width: 70%;
+}
+
+.locations img{
+    width: 25vw;
+    height: 50vh;
+}
+
+.shop-list img{
+    width: 25vw;
+    height: 15vw;
+}
+
+.shop-list td{
+    padding: 20px;
+    width: 25vw
+}
