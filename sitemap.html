@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="./styles/style.css">
     <title>Site Map</title>
 </head>
+<style>
+    .container a {
+        color: cornflowerblue;
+    }
+
+    .container a:hover {
+        color: blueviolet;
+    }
+</style>
 
 <body>
     <nav>
@@ -16,36 +25,49 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="sitemap.html">Site Map</a>
+                <a class="active" href="sitemap.html">Site Map</a>
             </li>
             <li>
                 <a href="contact.html">Contact/Feedback</a>
             </li>
+            <li>
+                <a href="credit.html">Credits</a>
+            </li>
         </ul>
     </nav>
     <main>
-        <h2>Site Map</h2>
-        <hr>
-        <table>
-            <thead>
-                <tr>
-                    <th>About </th>
-                    <th>Where to find vintage</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="index.html">Home Page</a></td>
-                    <td><a href="shanghai.html">Vintage in Shang Hai</a> </td>
-                </tr>
-                <tr>
-                    <td><a href="contact.html">contact/feedback</a> </td>
-                    <td><a href="beijing.html">Vintage in Bei jing</a> </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="container">
+            <h2>Site Map</h2>
+            <hr>
+            <table style="width: 50%;text-align: center;">
+                <thead>
+                    <tr>
+                        <th>Our Site </th>
+                        <th>Where to find vintage</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="index.html">Home Page</a></td>
+                        <td><a href="shanghai.html">Vintage in Shang Hai</a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href="contact.html">contact/feedback</a> </td>
+                        <td><a href="beijing.html">Vintage in Bei jing</a> </td>
+                    </tr>
+                    <tr>
+                        <td><a href="credit.html">Credits</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
-
+    <footer>
+        <h3>Contact US</h3>
+        <p><span><b>Email</b></span> abc@example.com</p>
+        <p><span><b>Phone</b></span> xxx-xxx-xxxx</p>
+    </footer>
 </body>
 
 </html>
